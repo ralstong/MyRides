@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		ACB3FF792C2EF9FA0052F0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */; };
 		ACB3FF7B2C2EF9FA0052F0BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */; };
-		ACB3FF7D2C2EF9FA0052F0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7C2C2EF9FA0052F0BF /* ViewController.swift */; };
+		ACB3FF7D2C2EF9FA0052F0BF /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */; };
 		ACB3FF822C2EF9FC0052F0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB3FF812C2EF9FC0052F0BF /* Assets.xcassets */; };
 		ACB3FF852C2EF9FC0052F0BF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ACB3FF842C2EF9FC0052F0BF /* Base */; };
+		ACB3FF912C2F01A80052F0BF /* Rides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF902C2F01A80052F0BF /* Rides.swift */; };
+		ACB3FF962C2F0EFC0052F0BF /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF952C2F0EFC0052F0BF /* DataParser.swift */; };
+		ACB3FF982C2F0F6B0052F0BF /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF972C2F0F6B0052F0BF /* APIError.swift */; };
+		ACB3FF9A2C2F0FE00052F0BF /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF992C2F0FE00052F0BF /* RequestHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACB3FF752C2EF9FA0052F0BF /* MyRides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACB3FF7C2C2EF9FA0052F0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewController.swift; sourceTree = "<group>"; };
 		ACB3FF812C2EF9FC0052F0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB3FF842C2EF9FC0052F0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB3FF862C2EF9FC0052F0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB3FF902C2F01A80052F0BF /* Rides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rides.swift; sourceTree = "<group>"; };
+		ACB3FF952C2F0EFC0052F0BF /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		ACB3FF972C2F0F6B0052F0BF /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		ACB3FF992C2F0FE00052F0BF /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,56 @@
 			children = (
 				ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */,
 				ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */,
-				ACB3FF7C2C2EF9FA0052F0BF /* ViewController.swift */,
+				ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */,
+				ACB3FF942C2F0C7F0052F0BF /* API */,
+				ACB3FF8F2C2F01860052F0BF /* Helpers */,
+				ACB3FF8E2C2F017F0052F0BF /* ViewControllers */,
+				ACB3FF8D2C2F017B0052F0BF /* Views */,
+				ACB3FF8C2C2F01730052F0BF /* Models */,
 				ACB3FF812C2EF9FC0052F0BF /* Assets.xcassets */,
 				ACB3FF832C2EF9FC0052F0BF /* LaunchScreen.storyboard */,
 				ACB3FF862C2EF9FC0052F0BF /* Info.plist */,
 			);
 			path = MyRides;
+			sourceTree = "<group>";
+		};
+		ACB3FF8C2C2F01730052F0BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3FF902C2F01A80052F0BF /* Rides.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACB3FF8D2C2F017B0052F0BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACB3FF8E2C2F017F0052F0BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACB3FF8F2C2F01860052F0BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3FF952C2F0EFC0052F0BF /* DataParser.swift */,
+				ACB3FF992C2F0FE00052F0BF /* RequestHandler.swift */,
+				ACB3FF972C2F0F6B0052F0BF /* APIError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ACB3FF942C2F0C7F0052F0BF /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB3FF7D2C2EF9FA0052F0BF /* ViewController.swift in Sources */,
+				ACB3FF9A2C2F0FE00052F0BF /* RequestHandler.swift in Sources */,
+				ACB3FF912C2F01A80052F0BF /* Rides.swift in Sources */,
+				ACB3FF982C2F0F6B0052F0BF /* APIError.swift in Sources */,
+				ACB3FF962C2F0EFC0052F0BF /* DataParser.swift in Sources */,
+				ACB3FF7D2C2EF9FA0052F0BF /* MyRidesViewController.swift in Sources */,
 				ACB3FF792C2EF9FA0052F0BF /* AppDelegate.swift in Sources */,
 				ACB3FF7B2C2EF9FA0052F0BF /* SceneDelegate.swift in Sources */,
 			);
