@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4D95F92C33280500841415 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D95F82C33280400841415 /* DateExtension.swift */; };
+		AC4D95FB2C332C6300841415 /* TripHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D95FA2C332C6300841415 /* TripHeader.swift */; };
+		AC4D95FE2C332E1E00841415 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D95FD2C332E1E00841415 /* ColorExtension.swift */; };
+		AC4D96002C33426100841415 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D95FF2C33426100841415 /* TripsView.swift */; };
+		AC4D96022C334ABE00841415 /* MyRidesDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D96012C334ABE00841415 /* MyRidesDatasource.swift */; };
+		AC4D96042C335CB800841415 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D96032C335CB800841415 /* NumberExtension.swift */; };
+		AC628EFE2C360252003E6508 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628EFD2C360252003E6508 /* CALayerExtension.swift */; };
+		AC628F002C364D82003E6508 /* HSDAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628EFF2C364D82003E6508 /* HSDAlertView.swift */; };
+		AC628F022C386F9C003E6508 /* HSDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F012C386F9C003E6508 /* HSDButton.swift */; };
+		AC628F042C388288003E6508 /* HSDAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F032C388288003E6508 /* HSDAlertViewController.swift */; };
+		AC628F062C388932003E6508 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F052C388932003E6508 /* Constants.swift */; };
 		ACB3FF792C2EF9FA0052F0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */; };
 		ACB3FF7B2C2EF9FA0052F0BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */; };
 		ACB3FF7D2C2EF9FA0052F0BF /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */; };
@@ -16,9 +27,25 @@
 		ACB3FF962C2F0EFC0052F0BF /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF952C2F0EFC0052F0BF /* DataParser.swift */; };
 		ACB3FF982C2F0F6B0052F0BF /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF972C2F0F6B0052F0BF /* APIError.swift */; };
 		ACB3FF9A2C2F0FE00052F0BF /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF992C2F0FE00052F0BF /* RequestHandler.swift */; };
+		ACB3FF9C2C2F12800052F0BF /* TripsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF9B2C2F12800052F0BF /* TripsAPI.swift */; };
+		ACB3FF9E2C2F128B0052F0BF /* TripsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF9D2C2F128B0052F0BF /* TripsService.swift */; };
+		ACB3FFA12C2F22BC0052F0BF /* MyRidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FFA02C2F22BC0052F0BF /* MyRidesViewModel.swift */; };
+		ACB3FFA32C2F231D0052F0BF /* MyRidesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FFA22C2F231D0052F0BF /* MyRidesHelper.swift */; };
+		ACB3FFA52C2F23640052F0BF /* TripCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FFA42C2F23640052F0BF /* TripCardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC4D95F82C33280400841415 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		AC4D95FA2C332C6300841415 /* TripHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHeader.swift; sourceTree = "<group>"; };
+		AC4D95FD2C332E1E00841415 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		AC4D95FF2C33426100841415 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		AC4D96012C334ABE00841415 /* MyRidesDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesDatasource.swift; sourceTree = "<group>"; };
+		AC4D96032C335CB800841415 /* NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+		AC628EFD2C360252003E6508 /* CALayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		AC628EFF2C364D82003E6508 /* HSDAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDAlertView.swift; sourceTree = "<group>"; };
+		AC628F012C386F9C003E6508 /* HSDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDButton.swift; sourceTree = "<group>"; };
+		AC628F032C388288003E6508 /* HSDAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDAlertViewController.swift; sourceTree = "<group>"; };
+		AC628F052C388932003E6508 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ACB3FF752C2EF9FA0052F0BF /* MyRides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +57,11 @@
 		ACB3FF952C2F0EFC0052F0BF /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		ACB3FF972C2F0F6B0052F0BF /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		ACB3FF992C2F0FE00052F0BF /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		ACB3FF9B2C2F12800052F0BF /* TripsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsAPI.swift; sourceTree = "<group>"; };
+		ACB3FF9D2C2F128B0052F0BF /* TripsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsService.swift; sourceTree = "<group>"; };
+		ACB3FFA02C2F22BC0052F0BF /* MyRidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewModel.swift; sourceTree = "<group>"; };
+		ACB3FFA22C2F231D0052F0BF /* MyRidesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesHelper.swift; sourceTree = "<group>"; };
+		ACB3FFA42C2F23640052F0BF /* TripCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4D95FC2C332E0100841415 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D95F82C33280400841415 /* DateExtension.swift */,
+				AC4D95FD2C332E1E00841415 /* ColorExtension.swift */,
+				AC4D96032C335CB800841415 /* NumberExtension.swift */,
+				AC628EFD2C360252003E6508 /* CALayerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ACB3FF6C2C2EF9FA0052F0BF = {
 			isa = PBXGroup;
 			children = (
@@ -64,12 +107,13 @@
 			children = (
 				ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */,
 				ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */,
-				ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */,
 				ACB3FF942C2F0C7F0052F0BF /* API */,
-				ACB3FF8F2C2F01860052F0BF /* Helpers */,
+				ACB3FF8C2C2F01730052F0BF /* Models */,
+				ACB3FF9F2C2F22A30052F0BF /* ViewModels */,
 				ACB3FF8E2C2F017F0052F0BF /* ViewControllers */,
 				ACB3FF8D2C2F017B0052F0BF /* Views */,
-				ACB3FF8C2C2F01730052F0BF /* Models */,
+				ACB3FF8F2C2F01860052F0BF /* Helpers */,
+				AC4D95FC2C332E0100841415 /* Extensions */,
 				ACB3FF812C2EF9FC0052F0BF /* Assets.xcassets */,
 				ACB3FF832C2EF9FC0052F0BF /* LaunchScreen.storyboard */,
 				ACB3FF862C2EF9FC0052F0BF /* Info.plist */,
@@ -88,6 +132,11 @@
 		ACB3FF8D2C2F017B0052F0BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACB3FFA42C2F23640052F0BF /* TripCardCell.swift */,
+				AC4D95FF2C33426100841415 /* TripsView.swift */,
+				AC4D95FA2C332C6300841415 /* TripHeader.swift */,
+				AC628EFF2C364D82003E6508 /* HSDAlertView.swift */,
+				AC628F012C386F9C003E6508 /* HSDButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,6 +144,8 @@
 		ACB3FF8E2C2F017F0052F0BF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */,
+				AC628F032C388288003E6508 /* HSDAlertViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -102,9 +153,10 @@
 		ACB3FF8F2C2F01860052F0BF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				ACB3FFA22C2F231D0052F0BF /* MyRidesHelper.swift */,
 				ACB3FF952C2F0EFC0052F0BF /* DataParser.swift */,
 				ACB3FF992C2F0FE00052F0BF /* RequestHandler.swift */,
-				ACB3FF972C2F0F6B0052F0BF /* APIError.swift */,
+				AC628F052C388932003E6508 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -112,8 +164,20 @@
 		ACB3FF942C2F0C7F0052F0BF /* API */ = {
 			isa = PBXGroup;
 			children = (
+				ACB3FF9B2C2F12800052F0BF /* TripsAPI.swift */,
+				ACB3FF9D2C2F128B0052F0BF /* TripsService.swift */,
+				ACB3FF972C2F0F6B0052F0BF /* APIError.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		ACB3FF9F2C2F22A30052F0BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3FFA02C2F22BC0052F0BF /* MyRidesViewModel.swift */,
+				AC4D96012C334ABE00841415 /* MyRidesDatasource.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,13 +250,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC628F022C386F9C003E6508 /* HSDButton.swift in Sources */,
 				ACB3FF9A2C2F0FE00052F0BF /* RequestHandler.swift in Sources */,
+				AC4D96022C334ABE00841415 /* MyRidesDatasource.swift in Sources */,
 				ACB3FF912C2F01A80052F0BF /* Rides.swift in Sources */,
+				ACB3FFA32C2F231D0052F0BF /* MyRidesHelper.swift in Sources */,
+				ACB3FFA12C2F22BC0052F0BF /* MyRidesViewModel.swift in Sources */,
+				AC628F062C388932003E6508 /* Constants.swift in Sources */,
+				ACB3FF9C2C2F12800052F0BF /* TripsAPI.swift in Sources */,
+				AC4D95FB2C332C6300841415 /* TripHeader.swift in Sources */,
+				AC628F002C364D82003E6508 /* HSDAlertView.swift in Sources */,
 				ACB3FF982C2F0F6B0052F0BF /* APIError.swift in Sources */,
+				AC4D96042C335CB800841415 /* NumberExtension.swift in Sources */,
+				AC4D96002C33426100841415 /* TripsView.swift in Sources */,
 				ACB3FF962C2F0EFC0052F0BF /* DataParser.swift in Sources */,
 				ACB3FF7D2C2EF9FA0052F0BF /* MyRidesViewController.swift in Sources */,
+				AC4D95FE2C332E1E00841415 /* ColorExtension.swift in Sources */,
+				AC4D95F92C33280500841415 /* DateExtension.swift in Sources */,
 				ACB3FF792C2EF9FA0052F0BF /* AppDelegate.swift in Sources */,
+				AC628EFE2C360252003E6508 /* CALayerExtension.swift in Sources */,
 				ACB3FF7B2C2EF9FA0052F0BF /* SceneDelegate.swift in Sources */,
+				ACB3FFA52C2F23640052F0BF /* TripCardCell.swift in Sources */,
+				ACB3FF9E2C2F128B0052F0BF /* TripsService.swift in Sources */,
+				AC628F042C388288003E6508 /* HSDAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

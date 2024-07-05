@@ -11,12 +11,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = MyRidesViewController()
+        
+        // Setup root navigation controller
+        let navController = UINavigationController(rootViewController: MyRidesViewController())
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .hsdBlue
+        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        navController.navigationBar.standardAppearance = appearance
+        navController.navigationBar.scrollEdgeAppearance = appearance
+        navController.navigationBar.compactAppearance = appearance
+        navController.navigationBar.compactScrollEdgeAppearance = appearance
+        
+        window.rootViewController = navController
         window.makeKeyAndVisible()
+        window.backgroundColor = .white
         self.window = window
     }
 
@@ -29,7 +41,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillEnterForeground(_ scene: UIScene) {  }
 
     func sceneDidEnterBackground(_ scene: UIScene) { }
-
-
 }
 

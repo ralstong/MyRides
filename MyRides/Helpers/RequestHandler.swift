@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Generic request handler to fetch data from a url
 struct RequestHandler {
     static func fetchData(from url: String) async throws -> Data {
         guard let url = URL(string: url) else {
