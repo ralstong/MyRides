@@ -40,7 +40,8 @@ As per the current implementation, the following are some important assumptions 
 2. Any string creation logic for the tableview cell/header can be modularized into a separate supporting view model for better separation of concerns and testability.
 3. The protocol-delegate patterns could be replaced with Combine reactive patterns for consistency.
 4. We could possibly implement pluralization through localization but I felt it was overkill for this project.
-5. A logger class can be created to print error/debug logs.
+5. For this API, the response is static, but if it was dynamic or in case the request failed the first time, we could add pull to refresh capability on the tableview to retry the fetch request.
+6. A logger class can be created to print error/debug logs.
 
 ## Build tools and version:
 
