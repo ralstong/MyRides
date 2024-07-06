@@ -43,6 +43,11 @@ As per the current implementation, the following are some important assumptions 
 5. For this API, the response is static, but if it was dynamic or in case the request failed the first time, we could add pull to refresh capability on the tableview to retry the fetch request.
 6. A logger class can be created to print error/debug logs.
 
+## Screenshots:
+
+<img src="https://github.com/ralstong/MyRides/assets/20563830/a84a385b-3d2f-411b-991c-2de573981aa3" width="300" height="650" />
+<img src="https://github.com/ralstong/MyRides/assets/20563830/dbaa2b4a-aa23-4688-b560-0b7fef32917a" width="300" height="650" />
+
 ## Build tools and version:
 
 Xcode 15.4 and iOS 17.5
