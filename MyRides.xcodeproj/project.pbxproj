@@ -40,6 +40,7 @@
 		ACBFDB412C397D6F009F48AB /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFDB402C397D6F009F48AB /* MockData.swift */; };
 		ACBFDB432C399AD1009F48AB /* TripSampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBFDB422C399AD1009F48AB /* TripSampleResponse.json */; };
 		ACBFDB452C399AE5009F48AB /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFDB442C399AE5009F48AB /* DataParserTests.swift */; };
+		ACBFDB482C39A3F4009F48AB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACBFDB472C39A3F4009F48AB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		ACBFDB402C397D6F009F48AB /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		ACBFDB422C399AD1009F48AB /* TripSampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TripSampleResponse.json; sourceTree = "<group>"; };
 		ACBFDB442C399AE5009F48AB /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
+		ACBFDB472C39A3F4009F48AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		ACB3FF6C2C2EF9FA0052F0BF = {
 			isa = PBXGroup;
 			children = (
+				ACBFDB472C39A3F4009F48AB /* README.md */,
 				ACB3FF772C2EF9FA0052F0BF /* MyRides */,
 				AC628F0C2C38B13A003E6508 /* MyRidesTests */,
 				ACB3FF762C2EF9FA0052F0BF /* Products */,
@@ -320,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBFDB482C39A3F4009F48AB /* README.md in Resources */,
 				ACB3FF822C2EF9FC0052F0BF /* Assets.xcassets in Resources */,
 				ACB3FF852C2EF9FC0052F0BF /* Base in Resources */,
 			);

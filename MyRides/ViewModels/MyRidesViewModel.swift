@@ -25,7 +25,7 @@ class MyRidesViewModel {
             trips = tripInfo.trips
             shouldUpdate.send(true)
         } catch let apiError as APIError {
-            print("API Error: \(apiError.localizedDescription)")
+            print("API Error: \(apiError.description)")
             shouldUpdate.send(false)
         } catch {
             print("Error: \(error.localizedDescription)")
