@@ -18,6 +18,9 @@
 		AC628F022C386F9C003E6508 /* HSDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F012C386F9C003E6508 /* HSDButton.swift */; };
 		AC628F042C388288003E6508 /* HSDAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F032C388288003E6508 /* HSDAlertViewController.swift */; };
 		AC628F062C388932003E6508 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F052C388932003E6508 /* Constants.swift */; };
+		AC628F152C38B2D3003E6508 /* MyRidesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F142C38B2D3003E6508 /* MyRidesViewModelTests.swift */; };
+		AC628F172C38B2F8003E6508 /* MockTripsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F162C38B2F8003E6508 /* MockTripsAPI.swift */; };
+		AC628F192C38BBA7003E6508 /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC628F182C38BBA7003E6508 /* DateExtensionTests.swift */; };
 		ACB3FF792C2EF9FA0052F0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */; };
 		ACB3FF7B2C2EF9FA0052F0BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */; };
 		ACB3FF7D2C2EF9FA0052F0BF /* MyRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FF7C2C2EF9FA0052F0BF /* MyRidesViewController.swift */; };
@@ -32,7 +35,22 @@
 		ACB3FFA12C2F22BC0052F0BF /* MyRidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FFA02C2F22BC0052F0BF /* MyRidesViewModel.swift */; };
 		ACB3FFA32C2F231D0052F0BF /* MyRidesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FFA22C2F231D0052F0BF /* MyRidesHelper.swift */; };
 		ACB3FFA52C2F23640052F0BF /* TripCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3FFA42C2F23640052F0BF /* TripCardCell.swift */; };
+		ACBFDB3D2C38C02B009F48AB /* NumberExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFDB3C2C38C02B009F48AB /* NumberExtensionTests.swift */; };
+		ACBFDB3F2C397C34009F48AB /* MyRidesHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFDB3E2C397C34009F48AB /* MyRidesHelperTests.swift */; };
+		ACBFDB412C397D6F009F48AB /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFDB402C397D6F009F48AB /* MockData.swift */; };
+		ACBFDB432C399AD1009F48AB /* TripSampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBFDB422C399AD1009F48AB /* TripSampleResponse.json */; };
+		ACBFDB452C399AE5009F48AB /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFDB442C399AE5009F48AB /* DataParserTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC628F0F2C38B13A003E6508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB3FF6D2C2EF9FA0052F0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB3FF742C2EF9FA0052F0BF;
+			remoteInfo = MyRides;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AC4D95F82C33280400841415 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
@@ -46,6 +64,10 @@
 		AC628F012C386F9C003E6508 /* HSDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDButton.swift; sourceTree = "<group>"; };
 		AC628F032C388288003E6508 /* HSDAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDAlertViewController.swift; sourceTree = "<group>"; };
 		AC628F052C388932003E6508 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC628F0B2C38B13A003E6508 /* MyRidesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRidesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC628F142C38B2D3003E6508 /* MyRidesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewModelTests.swift; sourceTree = "<group>"; };
+		AC628F162C38B2F8003E6508 /* MockTripsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTripsAPI.swift; sourceTree = "<group>"; };
+		AC628F182C38BBA7003E6508 /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
 		ACB3FF752C2EF9FA0052F0BF /* MyRides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB3FF782C2EF9FA0052F0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB3FF7A2C2EF9FA0052F0BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,9 +84,21 @@
 		ACB3FFA02C2F22BC0052F0BF /* MyRidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesViewModel.swift; sourceTree = "<group>"; };
 		ACB3FFA22C2F231D0052F0BF /* MyRidesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesHelper.swift; sourceTree = "<group>"; };
 		ACB3FFA42C2F23640052F0BF /* TripCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardCell.swift; sourceTree = "<group>"; };
+		ACBFDB3C2C38C02B009F48AB /* NumberExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtensionTests.swift; sourceTree = "<group>"; };
+		ACBFDB3E2C397C34009F48AB /* MyRidesHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRidesHelperTests.swift; sourceTree = "<group>"; };
+		ACBFDB402C397D6F009F48AB /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		ACBFDB422C399AD1009F48AB /* TripSampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TripSampleResponse.json; sourceTree = "<group>"; };
+		ACBFDB442C399AE5009F48AB /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC628F082C38B13A003E6508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB3FF722C2EF9FA0052F0BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,10 +120,26 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AC628F0C2C38B13A003E6508 /* MyRidesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC628F142C38B2D3003E6508 /* MyRidesViewModelTests.swift */,
+				AC628F162C38B2F8003E6508 /* MockTripsAPI.swift */,
+				ACBFDB402C397D6F009F48AB /* MockData.swift */,
+				AC628F182C38BBA7003E6508 /* DateExtensionTests.swift */,
+				ACBFDB3C2C38C02B009F48AB /* NumberExtensionTests.swift */,
+				ACBFDB3E2C397C34009F48AB /* MyRidesHelperTests.swift */,
+				ACBFDB442C399AE5009F48AB /* DataParserTests.swift */,
+				ACBFDB422C399AD1009F48AB /* TripSampleResponse.json */,
+			);
+			path = MyRidesTests;
+			sourceTree = "<group>";
+		};
 		ACB3FF6C2C2EF9FA0052F0BF = {
 			isa = PBXGroup;
 			children = (
 				ACB3FF772C2EF9FA0052F0BF /* MyRides */,
+				AC628F0C2C38B13A003E6508 /* MyRidesTests */,
 				ACB3FF762C2EF9FA0052F0BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB3FF752C2EF9FA0052F0BF /* MyRides.app */,
+				AC628F0B2C38B13A003E6508 /* MyRidesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +234,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AC628F0A2C38B13A003E6508 /* MyRidesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC628F112C38B13A003E6508 /* Build configuration list for PBXNativeTarget "MyRidesTests" */;
+			buildPhases = (
+				AC628F072C38B13A003E6508 /* Sources */,
+				AC628F082C38B13A003E6508 /* Frameworks */,
+				AC628F092C38B13A003E6508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC628F102C38B13A003E6508 /* PBXTargetDependency */,
+			);
+			name = MyRidesTests;
+			productName = MyRidesTests;
+			productReference = AC628F0B2C38B13A003E6508 /* MyRidesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		ACB3FF742C2EF9FA0052F0BF /* MyRides */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB3FF892C2EF9FC0052F0BF /* Build configuration list for PBXNativeTarget "MyRides" */;
@@ -210,6 +279,10 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					AC628F0A2C38B13A003E6508 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ACB3FF742C2EF9FA0052F0BF;
+					};
 					ACB3FF742C2EF9FA0052F0BF = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -229,11 +302,20 @@
 			projectRoot = "";
 			targets = (
 				ACB3FF742C2EF9FA0052F0BF /* MyRides */,
+				AC628F0A2C38B13A003E6508 /* MyRidesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AC628F092C38B13A003E6508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBFDB432C399AD1009F48AB /* TripSampleResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB3FF732C2EF9FA0052F0BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +328,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC628F072C38B13A003E6508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC628F172C38B2F8003E6508 /* MockTripsAPI.swift in Sources */,
+				AC628F192C38BBA7003E6508 /* DateExtensionTests.swift in Sources */,
+				ACBFDB452C399AE5009F48AB /* DataParserTests.swift in Sources */,
+				AC628F152C38B2D3003E6508 /* MyRidesViewModelTests.swift in Sources */,
+				ACBFDB3D2C38C02B009F48AB /* NumberExtensionTests.swift in Sources */,
+				ACBFDB412C397D6F009F48AB /* MockData.swift in Sources */,
+				ACBFDB3F2C397C34009F48AB /* MyRidesHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACB3FF712C2EF9FA0052F0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +374,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AC628F102C38B13A003E6508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB3FF742C2EF9FA0052F0BF /* MyRides */;
+			targetProxy = AC628F0F2C38B13A003E6508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		ACB3FF832C2EF9FC0052F0BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -290,6 +394,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AC628F122C38B13A003E6508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63262WWM7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralstongoes.MyRidesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRides.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyRides";
+			};
+			name = Debug;
+		};
+		AC628F132C38B13A003E6508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63262WWM7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralstongoes.MyRidesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRides.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyRides";
+			};
+			name = Release;
+		};
 		ACB3FF872C2EF9FC0052F0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +606,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC628F112C38B13A003E6508 /* Build configuration list for PBXNativeTarget "MyRidesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC628F122C38B13A003E6508 /* Debug */,
+				AC628F132C38B13A003E6508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ACB3FF702C2EF9FA0052F0BF /* Build configuration list for PBXProject "MyRides" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -11,6 +11,9 @@ extension Double {
     
     /// get dollar amount string from value in cents
     func dollarAmount() -> String {
-        "$\(self / 100.0)"
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .currency
+        numberFormatter.locale = Locale(identifier: "en_US")
+        return numberFormatter.string(from: NSNumber(value: (self / 100.0))) ?? ""
     }
 }
