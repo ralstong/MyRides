@@ -9,6 +9,8 @@ import XCTest
 @testable import MyRides
 
 final class DataParserTests: XCTestCase {
+    
+    let iso8601DateFormatter = ISO8601DateFormatter()
 
     func testDecodingTripResponse() {
         guard let url = Bundle(for: DataParserTests.self).url(forResource: "TripSampleResponse", withExtension: "json") else {
@@ -26,8 +28,8 @@ final class DataParserTests: XCTestCase {
         
         XCTAssertEqual(sampleResponse.trips.count, 4)
         XCTAssertEqual(sampleResponse.trips.first!.estimatedEarnings, 1736)
-        XCTAssertEqual(sampleResponse.trips.first!.plannedRoute.startsAt, ISO8601DateFormatter().date(from: "2023-11-16T18:15:00Z"))
-        XCTAssertEqual(sampleResponse.trips.first!.plannedRoute.endsAt, ISO8601DateFormatter().date(from: "2023-11-16T18:40:55Z"))
+        XCTAssertEqual(sampleResponse.trips.first!.plannedRoute.startsAt, iso8601DateFormatter.date(from: "2023-11-16T18:15:00Z"))
+        XCTAssertEqual(sampleResponse.trips.first!.plannedRoute.endsAt, iso8601DateFormatter.date(from: "2023-11-16T18:40:55Z"))
         XCTAssertEqual(sampleResponse.trips.first!.passengers.count, 3)
         XCTAssertEqual(sampleResponse.trips.first!.passengers.first!.boosterSeat, false)
         XCTAssertEqual(sampleResponse.trips.first!.waypoints.count, 3)
